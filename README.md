@@ -1,5 +1,12 @@
 # Token Bucket
 
+# Disclaimer
+
+**This is a fork from the original repo [bandwidth-throttle/token-bucket](https://github.com/bandwidth-throttle/token-bucket)**. Unfortunately this repo has no more maintenance and it got outdated.
+Thank you [bandwidth-throttle](https://github.com/bandwidth-throttle) for you effort and to provide such an useful library
+
+---
+
 This is a threadsafe implementation of the [Token Bucket algorithm](https://en.wikipedia.org/wiki/Token_bucket)
 in PHP. You can use a token bucket to limit an usage rate for a resource 
 (e.g. a stream bandwidth or an API usage).

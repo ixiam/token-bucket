@@ -1,9 +1,9 @@
 {
-    "name": "bandwidth-throttle/token-bucket",
+    "name": "ixiam/token-bucket",
     "type": "library",
     "description": "Implementation of the Token Bucket algorithm.",
     "keywords": ["token bucket", "bandwidth", "rate limit", "throttle", "throttling", "rate limiting"],
-    "homepage": "https://github.com/bandwidth-throttle/token-bucket",
+    "homepage": "https://github.com/ixiam/token-bucket",
     "license": "WTFPL",
     "authors": [
         {
@@ -11,14 +11,21 @@
             "email": "markus@malkusch.de",
             "homepage": "http://markus.malkusch.de",
             "role": "Developer"
-        }
+        },
+        {
+            "name": "iXiam Global Solutions",
+            "email": "info@ixiam.com",
+            "homepage": "https://github.com/ixiam/token-bucket",
+            "role": "Maintainer"
+        },
+
     ],
     "autoload": {
         "psr-4": {"bandwidthThrottle\\tokenBucket\\": "classes/"}
     },
     "require": {
-        "php": ">=5.6",
-        "malkusch/lock": "^1",
+        "php": ">=7.4",
+        "malkusch/lock": "^1|^2",
         "ext-bcmath":"*"
     },
     "require-dev": {
