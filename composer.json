@@ -17,7 +17,7 @@
             "email": "info@ixiam.com",
             "homepage": "https://github.com/ixiam/token-bucket",
             "role": "Maintainer"
-        },
+        }
     ],
     "autoload": {
         "psr-4": {"bandwidthThrottle\\tokenBucket\\": "classes/"}
