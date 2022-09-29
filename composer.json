@@ -1,5 +1,5 @@
 {
-    "name": "bandwidthThrottle/token-bucket",
+    "name": "bandwidth-throttle/token-bucket",
     "type": "library",
     "description": "Implementation of the Token Bucket algorithm.",
     "keywords": ["token bucket", "bandwidth", "rate limit", "throttle", "throttling", "rate limiting"],
